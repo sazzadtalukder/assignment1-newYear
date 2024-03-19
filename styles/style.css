@@ -9,10 +9,10 @@
 }
 .banner {
     text-align: center;
-    background-image: url('../images/BannerImage.png'), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-image: url('../images/BannerImage.png'), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1));
     background-blend-mode: overlay;
     background-position: center;
-    padding: 230px 0px ;
+    padding: 200px 0px ;
     margin-top: 20px;
     border-radius: 16px;
 
@@ -26,4 +26,58 @@
     color: #FFFFFF;
     font-size: 32px;
     /* padding-bottom: 15px; */
+}
+
+
+/* all-categories section  */
+.all-categories {
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.all-categories img {
+    width: 800px;
+}
+
+.all-categories h2 {
+    color: #FF0000;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.all-categories p {
+    font-size: 24px;
+    color: #FF0000;
+   
+}
+.all-categories h4 {
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 30px
+}
+/* wellcome section  */
+.wellcome {
+ background-image: url('../images/Vectorrr.png'), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4));
+ background-blend-mode: overlay;
+ border-radius: 16px;
+ color: white;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 80px;
+ padding: 50px 0px;
+}
+.wellcome-text  h2 {
+ font-size: 64px;
+}
+.wellcome-text p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.wellcome-text a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
 }
