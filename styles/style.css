@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;  
+}
+.banner {
+    text-align: center;
+    background-image: url('../images/BannerImage.png'), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-position: center;
+    padding: 230px 0px ;
+    margin-top: 20px;
+    border-radius: 16px;
+
+}
+.header-title{
+    font-size: 72px;
+    color: #FFFFFF;
+    
+}
+.header-greetings {
+    color: #FFFFFF;
+    font-size: 32px;
+    /* padding-bottom: 15px; */
+}
